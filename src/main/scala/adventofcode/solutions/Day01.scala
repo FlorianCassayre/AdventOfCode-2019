@@ -10,11 +10,6 @@ object Day01 extends Day(1) {
 
   override def solutionA = masses.map(fuel).sum
 
-  def fuelIt(initial: Int): Int = {
-    lazy val stream: LazyList[Int] = initial #:: stream.map(fuel).takeWhile(_ > 0)
-    stream.tail.sum
-  }
-
-  override def solutionB = masses.map(fuelIt).sum
+  override def solutionB = masses.flatMap(LazyList.iterate(_)(fuel).takeWhile(_ > 0).tail).sum
 
 }

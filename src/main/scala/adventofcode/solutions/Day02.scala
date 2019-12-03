@@ -10,9 +10,9 @@ object Day02 extends Day(2) {
     def execute(program: IndexedSeq[Int], pointer: Int = 0): Int = {
       def address(i: Int): Int = program(pointer + i)
       def load(i: Int): Int = program(address(i))
-      val next = pointer + 4
       def apply(f: (Int, Int) => Int): IndexedSeq[Int] = program.updated(address(3), f(load(1), load(2)))
-      program(pointer) match {
+      val next = pointer + 4
+      address(0) match {
         case 1 => execute(apply(_ + _), next)
         case 2 => execute(apply(_ * _), next)
         case 99 => program.head
