@@ -8,11 +8,9 @@ object Day04 extends Day(4) {
     case s"$a-$b" => a.toInt to b.toInt
   }
 
-  val ascending = range.map(_.toString.toSeq).filter(s => s == s.sorted)
-
-  val running = ascending.map(LazyList.unfold(_)(s => s.headOption.map(h =>
-    s.tail.span(_ == h)
-  ).map(t => t.copy(_1 = t._1.size + 1))))
+  val running = range.map(_.toString.toSeq)
+    .filter(s => s == s.sorted)
+    .map(Seq.unfold(_)(s => s.headOption.map(h => s.span(_ == h))).map(_.size))
 
   override def solutionA = running.count(_.exists(_ >= 2))
 
