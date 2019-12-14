@@ -19,7 +19,7 @@ _My solutions to the 2019 edition of [Advent Of Code](https://adventofcode.com/2
 * [Day 10](https://adventofcode.com/2019/day/10): [solution](https://github.com/FlorianCassayre/AdventOfCode-2019/blob/master/src/main/scala/adventofcode/solutions/Day10.scala)
 * [Day 11](https://adventofcode.com/2019/day/11): [solution](https://github.com/FlorianCassayre/AdventOfCode-2019/blob/master/src/main/scala/adventofcode/solutions/Day11.scala)
 * [Day 12](https://adventofcode.com/2019/day/12): [solution](https://github.com/FlorianCassayre/AdventOfCode-2019/blob/master/src/main/scala/adventofcode/solutions/Day12.scala)
-* [Day 13](https://adventofcode.com/2019/day/13): –[](https://github.com/FlorianCassayre/AdventOfCode-2019/blob/master/src/main/scala/adventofcode/solutions/Day13.scala)
+* [Day 13](https://adventofcode.com/2019/day/13): [solution](https://github.com/FlorianCassayre/AdventOfCode-2019/blob/master/src/main/scala/adventofcode/solutions/Day13.scala)
 * [Day 14](https://adventofcode.com/2019/day/14): –[](https://github.com/FlorianCassayre/AdventOfCode-2019/blob/master/src/main/scala/adventofcode/solutions/Day14.scala)
 * [Day 15](https://adventofcode.com/2019/day/15): –[](https://github.com/FlorianCassayre/AdventOfCode-2019/blob/master/src/main/scala/adventofcode/solutions/Day15.scala)
 * [Day 16](https://adventofcode.com/2019/day/16): –[](https://github.com/FlorianCassayre/AdventOfCode-2019/blob/master/src/main/scala/adventofcode/solutions/Day16.scala)
